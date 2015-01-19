@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/mainlayout" >
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="90px"
+        android:textStyle="bold"
+        android:id="@+id/bienvenido"
+        />
+
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        tools:context=".GridXMLActivity" >
+
+        <Button
+            android:text="1"
+            android:gravity="center"
+            android:textSize="90px"
+            android:id="@+id/boton1"
+            />
+
+        <EditText
+            android:text="Ingresa frase"
+            android:gravity="center"
+            android:textSize="90px"
+            android:id="@+id/text1"
+            />
+
+        <Button
+            android:text="2"
+            android:gravity="center"
+            android:textSize="90px"
+            android:id="@+id/boton2"
+            />
+
+        <EditText
+            android:text="Ingresa frase"
+            android:gravity="center"
+            android:textSize="90px"
+            android:id="@+id/text2"
+            />
+
+        <Button
+            android:text="3"
+            android:gravity="center"
+            android:textSize="90px"
+            android:id="@+id/boton3"
+            />
+
+        <EditText
+            android:text="Ingresa frase"
+            android:gravity="center"
+            android:textSize="90px"
+            android:id="@+id/text3"
+            />
+    </GridLayout>
+</LinearLayout>
